@@ -2,7 +2,7 @@
 
 __version__ = '0.0.1'
 
-from fns.app import check_receipt, revise_receipt
+from fns.app import check_receipt, revise_info
 
 class Receipt:
     def __init__(self, fn, fp, fd, purchase_date=None, total=None):
@@ -13,3 +13,5 @@ class Receipt:
         self.total = total
 
 
+class Response:
+    pass
