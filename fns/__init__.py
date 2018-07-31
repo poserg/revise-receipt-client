@@ -11,7 +11,3 @@ class Receipt:
         self.fd = fd
         self.purchase_date = purchase_date
         self.total = total
-
-
-class Response:
-    pass
