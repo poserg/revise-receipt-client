@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 import codecs
 from fns import __version__
 
@@ -11,7 +11,8 @@ setup(
     description='Revise receipt client',
     author='Sergey Popov',
     author_email='poserg@gmail.com',
-    url='https://www.python.org/sigs/distutils-sig/',
+    license='MIT License',
+    url='https://github.com/poserg/revise-receipt-client/',
     packages=[
         'fns',
     ],
